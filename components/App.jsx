@@ -4,7 +4,7 @@ const App = () => {
     return (
     <div className={styles.app}>
         <div className={styles.card}>
-            <img src="/social-links-profile/assets/avatar-jessica.jpeg" alt="Jessica Randall" />
+            <img src="../assets/images/avatar-jessica.jpeg" alt="Jessica Randall" />
             <h1>Jessica Randall</h1>
             <h2>London, United Kingdom</h2>
             <p>"Front-end developer and avid reader."</p>

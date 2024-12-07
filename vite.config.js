@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-    base: '/social-links-profile/',
+    base: process.env.NODE_ENV === 'production' ? '/social-links-profile/' : '/',
   plugins: [react()],
 });
