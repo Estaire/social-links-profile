@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    width: 400px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+p, h2 {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+img {
+    border-radius: 50%;
+    width: 90px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    border: 1px solid hsl(0, 0%, 20%);
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    border: 1px solid hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: 320px;
+        padding: 20px;
+    }
+    p {
+        margin-bottom: 10px;
+    }
+    h2 {
+        margin-bottom: 15px; 
+    }
+    img {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+}
